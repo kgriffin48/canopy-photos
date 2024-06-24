@@ -15,7 +15,7 @@ deg2rad <- function(x) x*pi/180
 dist2Dorig <- function(x0, x, y0, y) sqrt((y-y0)^2 + (x-x0)^2)
 
 #set the directory in which you have fullframe images:
-setwd('Canopy_5_photos_per_flag')
+setwd('/Users/katiegriffin/Dropbox/canopy_photos')
 dir()
 
 files<-list.files()
